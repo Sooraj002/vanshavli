@@ -258,7 +258,7 @@ export default function Home() {
                   Unlock the secrets of your DNA and discover the story of your
                   ancestors.
                 </p>
-                <Button size="lg" variant="secondary" className="mt-8">
+                <Button onClick={()=>{router.push("/dashboard")}} size="lg" variant="secondary" className="mt-8">
                   Get Started Now
                 </Button>
               </div>
